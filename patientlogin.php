@@ -70,6 +70,9 @@ if(isset($_POST["submit"]))
                     <div class="form-line">
 					<input type="password" name="password" id="password" class="form-control"  placeholder="Password" /> </div>
                 </div>
+				<div class="username-text">Username : patient</div>
+				<div class="password-text">Password : password</div>
+				<br>
                 <div>
                     <div class="">
                         <input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">

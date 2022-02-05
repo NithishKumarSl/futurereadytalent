@@ -212,12 +212,12 @@ function validateform()
 		document.frmdoct.loginid.focus();
 		return false;
 	}
-	else if(!document.frmdoct.loginid.value.match(alphanumericExp))
-	{
-		alert("loginid not valid..");
-		document.frmdoct.loginid.focus();
-		return false;
-	}
+	// else if(!document.frmdoct.loginid.value.match(alphanumericExp))
+	// {
+	// 	alert("loginid not valid..");
+	// 	document.frmdoct.loginid.focus();
+	// 	return false;
+	// }
 	else if(document.frmdoct.password.value == "")
 	{
 		alert("Password should not be empty..");
