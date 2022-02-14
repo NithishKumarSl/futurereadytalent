@@ -4,8 +4,6 @@ error_reporting(0);
 include("dbconnection.php");
 $dt = date("Y-m-d");
 $tim = date("H:i:s");
-
-include("dbconnection.php");
 if(isset($_SESSION["doctorid"]))
 {
 	echo "<script>window.location='doctoraccount.php';</script>";

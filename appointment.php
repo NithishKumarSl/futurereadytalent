@@ -22,12 +22,13 @@ else
    $qsql=mysqli_query($con,$sql);
 
    $sql ="INSERT INTO appointment(patientid, departmentid, appointmentdate, appointmenttime, doctorid, status, app_reason) values('".$_POST["select4"]."','".$_POST["select5"]."','".$_POST["appointmentdate"]."','".$_POST['time']."','".$_POST['select6']."','".$_POST["select"]."','".$_POST["appreason"]."')";
+   var_dump($sql);
    if($qsql = mysqli_query($con,$sql))
    {
-
+    var_dump("hi");
     include("insertbillingrecord.php");	
     echo "<script>alert('Appointment record inserted successfully...');</script>";
-    echo "<script>window.location='patientreport.php?patientid=$_POST[select4]';</script>";
+    echo "<script>window.location='patientreport.php?patientid=".$_POST["select4"]."';</script>";
 }
 else
 {
