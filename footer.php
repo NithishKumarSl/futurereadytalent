@@ -35,7 +35,7 @@
   <!-- Rights -->
   <div class="rights style-2">
     <div class="container">
-      <p>© <?php echo date("Y"); ?> Hospital Management System - Template by M_ADNAN & Application Developed By <span style="color: white">Khyrul Kabir</span></p>
+      <p>© <?php echo date("Y"); ?> Hospital Management System - Developed by S L NITHISH KUMAR</p>
     </div>
   </div>
   
